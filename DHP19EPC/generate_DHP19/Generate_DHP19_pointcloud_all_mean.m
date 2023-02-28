@@ -12,9 +12,9 @@
 
 % Set the paths of code repository folder, data folder and output folder 
 % where to generate files of accumulated events.
-rootCodeFolder = 'F:\EventPointPose\DHP19EPC'; % root directory of the git repo.
-rootDataFolder = 'F:\DHP19\'; % root directory of the data downloaded from resiliosync.
-outDatasetFolder = 'F:\DHP19EPC_dataset\train_MeanLabel\'; % root directory of generated train data or test data.
+rootCodeFolder = 'E:\PythonProject\EventPointPose\DHP19EPC'; % root directory of the git repo.
+rootDataFolder = 'I:\Dataset\DHP19数据集\公开aedat数据\DHP19'; % root directory of the data downloaded from resiliosync.
+outDatasetFolder = 'I:\Dataset\DHP19数据集\公开aedat数据\DHP19EPC_test'; % root directory of generated train data or test data.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

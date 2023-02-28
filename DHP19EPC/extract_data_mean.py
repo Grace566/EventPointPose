@@ -11,9 +11,10 @@ import glob
 
 
 # path of files generated using matlab
-root_dir = 'F://DHP19EPC_dataset//test_MeanLabel//data//'
-out_dir = 'F://DHP19EPC_dataset//test_MeanLabel_extract//data//'
-
+# root_dir = 'F://DHP19EPC_dataset//test_MeanLabel//data//'
+# out_dir = 'F://DHP19EPC_dataset//test_MeanLabel_extract//data//'
+root_dir = 'I://Dataset//DHP19_debug//DHP19EPC_test//data//'
+out_dir = 'I://Dataset//DHP19_debug///test_MeanLabel_extract//data//'
 
 if not os.path.exists(out_dir):
     os.makedirs(out_dir)

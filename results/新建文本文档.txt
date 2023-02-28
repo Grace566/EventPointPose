@@ -1,0 +1,14 @@
+Model Name:DGCNN
+Accuracy: 0.823
+Mean MPJPE2D cam2: 9.328
+Mean MPJPE2D cam3: 11.028
+Mean MPJPE2D cam2 and cam3: 10.178
+Mean MPJPE3D: 113.508
+
+pretrained
+Model Name:DGCNN
+Accuracy: 0.933
+Mean MPJPE2D cam2: 6.817
+Mean MPJPE2D cam3: 6.846
+Mean MPJPE2D cam2 and cam3: 6.831
+Mean MPJPE3D: 77.363

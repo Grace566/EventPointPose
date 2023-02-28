@@ -19,10 +19,10 @@ from tqdm import tqdm
 
 P_mat_dir = '../P_matrices/'
 
-model, args = init_point_model('PointNet')
+model, args = init_point_model('DGCNN')
 
 # path of valid data mean label
-root_valid_data_dir = 'F://DHP19EPC_dataset//test_MeanLabel_extract//'
+root_valid_data_dir = 'I://Dataset//EventPointPose_Dataset//test//'
 test = DHP19EPC(
             args,
             root_data_dir=root_valid_data_dir + 'data//',

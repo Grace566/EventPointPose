@@ -29,9 +29,9 @@ def train(exp_name, args, io):
     if args.label == 'mean':
         # mean label
         # path of train data
-        root_train_data_dir = 'F://DHP19EPC_dataset//train_MeanLabel_extract//'
+        root_train_data_dir = 'I://Dataset//EventPointPose_Dataset//train//'
         # path of valid data
-        root_valid_data_dir = 'F://DHP19EPC_dataset//test_MeanLabel_extract//'
+        root_valid_data_dir = 'I://Dataset//EventPointPose_Dataset//test//'
 
         train_dataset = DHP19EPC(
             args,

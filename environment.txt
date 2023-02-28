@@ -1,0 +1,20 @@
+conda create -n EventPointPose python=3.10
+activate EventPointPose
+conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c conda-forge
+conda install numpy==1.19.2
+conda install h5py
+pip install opencv-python==4.4.0.46
+conda install tqdm
+conda install scipy
+
+
+main.py
+--train_batch_size=16
+--epochs=30
+--num_points=2048
+--model
+DGCNN
+--name
+DGCNN-2048
+--cuda_num
+0

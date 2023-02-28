@@ -11,14 +11,17 @@ from os.path import join
 import glob
 
 # path of files generated using matlab
-root_dir = 'F://DHP19EPC_dataset//test_MeanLabel//label//'
-out_dir = 'F://DHP19EPC_dataset//test_MeanLabel_extract//label//'
+# root_dir = 'F://DHP19EPC_dataset//test_MeanLabel//label//'
+# out_dir = 'F://DHP19EPC_dataset//test_MeanLabel_extract//label//'
+root_dir = 'I://Dataset//DHP19_debug//DHP19EPC_test//label//'
+out_dir = 'I://Dataset//DHP19_debug//test_MeanLabel_extract//label//'
 
 if not os.path.exists(out_dir):
     os.makedirs(out_dir)
 
 # camera projection matrices path
-P_mat_dir = 'F://EventPointPose//P_matrices//'
+# P_mat_dir = 'F://EventPointPose//P_matrices//'
+P_mat_dir = 'I://Dataset//DHP19_debug//P_matrices//'
 
 
 def extract_frames_labels(label_file_dir, out_dir, P_mat_cam_all, image_info):
